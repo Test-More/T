@@ -2,12 +2,11 @@ package T2::B;
 use strict;
 use warnings;
 
+use parent 'T2';
+
 our $VERSION = '0.001';
 
-sub __DEFAULT_AS { 't2' }
 sub __DEFAULT_NS { 'Test2::Bundle' }
-
-use parent 'T2';
 
 1;
 
@@ -19,7 +18,11 @@ __END__
 
 =head1 NAME
 
+T2::B - Import Test2::Bundle::* in a box.
+
 =head1 DESCRIPTION
+
+See L<T> for documentation.
 
 =head1 SOURCE
 

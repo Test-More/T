@@ -2,12 +2,12 @@ package T2::P;
 use strict;
 use warnings;
 
+use parent 'T2';
+
 our $VERSION = '0.001';
 
 sub __DEFAULT_AS { 't2p' }
 sub __DEFAULT_NS { 'Test2::Plugin' }
-
-use parent 'T2';
 
 1;
 
@@ -19,7 +19,11 @@ __END__
 
 =head1 NAME
 
+T2::P - Import Test2::Plugin::* in a box.
+
 =head1 DESCRIPTION
+
+See L<T> for documentation.
 
 =head1 SOURCE
 

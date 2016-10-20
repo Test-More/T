@@ -2,12 +2,13 @@ package T2;
 use strict;
 use warnings;
 
+use parent 'Import::Box';
+
 our $VERSION = '0.001';
 
 sub __DEFAULT_AS { 't2' }
 sub __DEFAULT_NS { 'Test2::Tools' }
 
-use parent 'T';
 
 1;
 
@@ -19,7 +20,11 @@ __END__
 
 =head1 NAME
 
+T2 - Import Test2::Tools::* in a box.
+
 =head1 DESCRIPTION
+
+See L<T> for documentation.
 
 =head1 SOURCE
 
