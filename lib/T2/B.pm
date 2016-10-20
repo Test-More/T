@@ -4,7 +4,7 @@ use warnings;
 
 use parent 'T2';
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 sub __DEFAULT_NS { 'Test2::Bundle' }
 

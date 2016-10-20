@@ -4,7 +4,7 @@ use warnings;
 
 use parent 'Import::Box';
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 sub __DEFAULT_AS { 't2' }
 sub __DEFAULT_NS { 'Test2::Tools' }
